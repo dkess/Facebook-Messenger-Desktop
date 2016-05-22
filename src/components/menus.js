@@ -150,7 +150,8 @@ module.exports = {
     var THEMES = {
       'default': 'Default',
       'mosaic': 'Mosaic',
-      'dark': 'Dark'
+      'dark': 'Dark',
+      'irc': 'IRC'
     };
 
     Object.keys(THEMES).forEach(function(key) {
