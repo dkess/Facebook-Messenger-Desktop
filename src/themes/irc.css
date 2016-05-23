@@ -37,6 +37,10 @@ height: auto;
 opacity:1;
 }
 
+._-ne ._3oh- {
+color: #424242;
+}
+
 h5._ih3._-ne {
 margin:0;
 padding:0;
@@ -86,4 +90,9 @@ content: "hide info";
 
 ._fl3._20nb._30yy::after {
 content: "show info";
+}
+
+/* DKESS ADDITION: make own messages blue */
+._o46._nd_ ._hh7 {
+color: navy !important;
 }

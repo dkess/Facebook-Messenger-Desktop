@@ -70,7 +70,8 @@ iframe.onload = function() {
   windowBehaviour.syncBadgeAndTitle(win, document, iframe.contentDocument);
 
   // Listen for ESC key press
-  windowBehaviour.closeWithEscKey(win, iframe.contentDocument);
+  // DKESS ADDITION: commented out
+  //windowBehaviour.closeWithEscKey(win, iframe.contentDocument);
 
   // DKESS ADDITION: inject keyboard shortcuts
   shortcuts.inject(iframe.contentDocument);
